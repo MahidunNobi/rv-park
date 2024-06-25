@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner-background{
+    background-image: linear-gradient(to right, #000000af, #355e3b8f), url("https://media.istockphoto.com/id/684883884/photo/bearded-father-embracing-teenage-daughter-in-park.jpg?s=1024x1024&w=is&k=20&c=bLSOOGgDnk-Jj9JxLhJWTBdfO9Wy47vHibOqj4_w9mA=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+p{
+    font-weight: 450;
+    font-size: 16px;
+}
+
+
+.menu li > *:not(ul, .menu-title, details, .btn):active, .menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active{
+    background-color: transparent !important;
+    color: rgb(32, 32, 32);
+    border-bottom: 2px solid #355E3B;
+    border-radius: 0;
+    font-weight: 600;
+    padding: 0;
+}
