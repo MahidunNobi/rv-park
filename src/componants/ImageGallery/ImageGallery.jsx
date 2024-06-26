@@ -10,6 +10,9 @@ import "./SwiperCss.css";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import Title from "../Title/Title";
 
+// Video css
+import "video-react/dist/video-react.css";
+
 // importing images...
 import spot_1 from "../../assets/PhotoGallery/spot_1.jpg";
 import spot_2 from "../../assets/PhotoGallery/spot_2.jpg";
@@ -30,11 +33,14 @@ import spot_19 from "../../assets/PhotoGallery/spot_19.jpg";
 import spot_20 from "../../assets/PhotoGallery/spot_20.jpg";
 import spot_22 from "../../assets/PhotoGallery/spot_22.jpg";
 import spot_23 from "../../assets/PhotoGallery/spot_23.jpg";
+import video from "../../assets/PhotoGallery/Video.mp4";
+import { Player } from "video-react";
 
 const ImageGallery = () => {
   return (
     <div className="container mx-auto px-4 my-12">
       <Title title="Image" colored="Gallery" />
+
       <div className="my-6">
         <Swiper
           effect={"coverflow"}
@@ -52,6 +58,11 @@ const ImageGallery = () => {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper max-h-[450px]"
         >
+          <SwiperSlide>
+            <Player autoPlay={true} muted className={"w-full h-full"}>
+              <source src={video} />
+            </Player>
+          </SwiperSlide>
           <SwiperSlide>
             <img loading="lazy" className="h-full object-cover" src={spot_1} />
           </SwiperSlide>
