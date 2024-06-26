@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,12 +5,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 import "./SwiperCss.css";
-
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import Title from "../Title/Title";
+
+// importing images...
+import spot_1 from "../../assets/PhotoGallery/spot_1.jpg";
+import spot_2 from "../../assets/PhotoGallery/spot_2.jpg";
+import spot_3 from "../../assets/PhotoGallery/spot_3.jpg";
+import spot_4 from "../../assets/PhotoGallery/spot_4.jpg";
+import spot_5 from "../../assets/PhotoGallery/spot_5.jpg";
+import spot_6 from "../../assets/PhotoGallery/spot_6.jpg";
+import spot_7 from "../../assets/PhotoGallery/spot_7.jpg";
+import spot_8 from "../../assets/PhotoGallery/spot_8.jpg";
+import spot_9 from "../../assets/PhotoGallery/spot_9.jpg";
+import spot_10 from "../../assets/PhotoGallery/spot_10.jpg";
+import spot_12 from "../../assets/PhotoGallery/spot_12.jpg";
+import spot_13 from "../../assets/PhotoGallery/spot_13.jpg";
+import spot_14 from "../../assets/PhotoGallery/spot_14.jpg";
+import spot_17 from "../../assets/PhotoGallery/spot_17.jpg";
+import spot_18 from "../../assets/PhotoGallery/spot_18.jpg";
+import spot_19 from "../../assets/PhotoGallery/spot_19.jpg";
+import spot_20 from "../../assets/PhotoGallery/spot_20.jpg";
+import spot_22 from "../../assets/PhotoGallery/spot_22.jpg";
+import spot_23 from "../../assets/PhotoGallery/spot_23.jpg";
 
 const ImageGallery = () => {
   return (
@@ -35,58 +53,61 @@ const ImageGallery = () => {
           className="mySwiper max-h-[450px]"
         >
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/1674215259/photo/playing-with-mother.jpg?s=1024x1024&w=is&k=20&c=1F7t4eeEgFKI_X5WZtHwCtjqNMEG7Vd6trVwuXdNLMs="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_1} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://cdn.pixabay.com/photo/2018/10/07/19/25/autumn-3731094_1280.jpg"
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_2} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/1395974494/photo/smiling-mother-with-happy-son-playing-with-a-ball.jpg?s=1024x1024&w=is&k=20&c=eku5aKrMbqtrT9py69KqSVTerzddtELkBkC5Ay27ECI="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_3} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/844226976/photo/a-mother-is-playing-with-her-son-in-the-ball-in-the-park.jpg?s=1024x1024&w=is&k=20&c=T7B8eOuQnGXsTomF0IMHZmUHK-h3_zETo3VN3DRoR_s="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_4} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/1289925458/photo/family-playing-outside-in-their-backyard.jpg?s=1024x1024&w=is&k=20&c=5EUiTRQSiipOgafjogQ_m_IhWPyG0bSsGnKSsQXcFpg="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_5} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://cdn.pixabay.com/photo/2018/10/07/19/25/autumn-3731094_1280.jpg"
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_6} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/844226976/photo/a-mother-is-playing-with-her-son-in-the-ball-in-the-park.jpg?s=1024x1024&w=is&k=20&c=T7B8eOuQnGXsTomF0IMHZmUHK-h3_zETo3VN3DRoR_s="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_7} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/1289925458/photo/family-playing-outside-in-their-backyard.jpg?s=1024x1024&w=is&k=20&c=5EUiTRQSiipOgafjogQ_m_IhWPyG0bSsGnKSsQXcFpg="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_8} />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="h-full object-cover"
-              src="https://media.istockphoto.com/id/844226976/photo/a-mother-is-playing-with-her-son-in-the-ball-in-the-park.jpg?s=1024x1024&w=is&k=20&c=T7B8eOuQnGXsTomF0IMHZmUHK-h3_zETo3VN3DRoR_s="
-            />
+            <img loading="lazy" className="h-full object-cover" src={spot_9} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_10} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_12} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_13} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_14} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_17} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_18} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_19} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_20} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_22} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={spot_23} />
           </SwiperSlide>
         </Swiper>
       </div>

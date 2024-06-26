@@ -1,14 +1,15 @@
 import FilledButton from "../Buttons/FilledButton/FilledButton";
 import Title from "../Title/Title";
+import RelaxedRvGatewayPic from "../../assets/RelaxedRvGateways.jpeg";
 
 const RelaxedRVGetaways = () => {
   return (
     <div className="bg-hunterGreen/10 px-4 py-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-6">
         {/* ----------Left image */}
-        <div className="w-full overflow-hidden max-h-80 md:max-h-auto flex items-center">
+        <div className="w-full overflow-hidden flex items-center">
           <img
-            src="https://cdn.pixabay.com/photo/2022/04/24/08/08/park-7153125_1280.png"
+            src={RelaxedRvGatewayPic}
             alt=""
             className="w-full object-cover"
           />
