@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="container mx-auto text-white px-4">
         <div className="max-w-[850px] py-6">
           <h1 className="text-4xl md:text-6xl font-semibold">
-            Your Ultimate Guide to RV Parks
+            Wilson Christmas Tree Farm
           </h1>
           <p className="my-6">
             Conveniently nestled directly off Highway 70 in Wilson, Oklahoma.
