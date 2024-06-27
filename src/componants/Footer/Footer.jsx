@@ -16,7 +16,7 @@ const Footer = () => {
           <FaInstagram size={18} className="text-gray-600" />
         </button>
       </div>
-      <p>© 2024 RV Park near Paradise, TX | Over The Hill RV Park.</p>
+      <p>© Wilson Christmas Tree Farm and RV Park</p>
     </footer>
   );
 };

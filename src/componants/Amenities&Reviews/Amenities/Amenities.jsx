@@ -43,7 +43,7 @@ const Amenities = () => {
           <div className="min-w-6">
             <FaCheckCircle className="text-hunterGreen" />
           </div>
-          300 1st Christmas Trees Planted 🌲 🌲🌲
+          300 1st Christmas Trees Planted🌲🌲🌲
         </li>
         <li className="text-xl flex items-center gap-3">
           <div className="min-w-6">

@@ -17,16 +17,17 @@ const ParkInfo = () => {
       <div className="my-6">
         <h5 className="text-2xl font-semibold mb-3"> How to reach us:</h5>
         <span className="flex gap-3 items-center">
-          <FaPhoneAlt className="text-hunterGreen" /> +1 (940) 273-0875{" "}
+          <FaPhoneAlt className="text-hunterGreen" /> 580-668-0830
         </span>
         <br />
         <span className="flex gap-3 items-center">
-          <MdEmail className="text-hunterGreen" /> rv@park.com{" "}
+          <MdEmail className="text-hunterGreen" />{" "}
+          WilsonChristmastreefarm@gmail.com
         </span>
         <br />
         <span className="flex gap-3 items-center">
-          <FaLocationDot className="text-hunterGreen" /> 4677 W. Hwy 114,
-          Paradise, TX 76073
+          <FaLocationDot className="text-hunterGreen" /> 1955 Cimmaron Road,
+          Wilson Oklahoma 73463
         </span>
       </div>
     </div>
