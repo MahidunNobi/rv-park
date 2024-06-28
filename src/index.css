@@ -4,7 +4,7 @@
 
 
 .banner-background{
-    background-image: linear-gradient(to right, #000000af, #355e3b8f), url("https://media.istockphoto.com/id/684883884/photo/bearded-father-embracing-teenage-daughter-in-park.jpg?s=1024x1024&w=is&k=20&c=bLSOOGgDnk-Jj9JxLhJWTBdfO9Wy47vHibOqj4_w9mA=");
+    background-image: linear-gradient(to right, #000000af, #355e3b8f), url("./assets/Banner_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    

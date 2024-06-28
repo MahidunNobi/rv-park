@@ -33,6 +33,7 @@ import spot_19 from "../../assets/PhotoGallery/spot_19.jpg";
 import spot_20 from "../../assets/PhotoGallery/spot_20.jpg";
 import spot_22 from "../../assets/PhotoGallery/spot_22.jpg";
 import spot_23 from "../../assets/PhotoGallery/spot_23.jpg";
+import logo from "../../assets/IMG_5613.png";
 import video from "../../assets/PhotoGallery/Video.mp4";
 import { Player } from "video-react";
 
@@ -62,6 +63,9 @@ const ImageGallery = () => {
             <Player autoPlay={true} muted className={"w-full h-full"}>
               <source src={video} />
             </Player>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img loading="lazy" className="h-full object-cover" src={logo} />
           </SwiperSlide>
           <SwiperSlide>
             <img loading="lazy" className="h-full object-cover" src={spot_1} />

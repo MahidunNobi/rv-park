@@ -22,7 +22,12 @@ const ParkInfo = () => {
         <br />
         <span className="flex gap-3 items-center">
           <MdEmail className="text-hunterGreen" />{" "}
-          WilsonChristmastreefarm@gmail.com
+          <a
+            href="mailto:wilsonchristmastreefarm@gmail.com"
+            className="text-blue-600 underline"
+          >
+            WilsonChristmastreefarm@gmail.com
+          </a>
         </span>
         <br />
         <span className="flex gap-3 items-center">
