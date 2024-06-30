@@ -56,12 +56,12 @@ const Navbar = () => {
   return (
     <div className="navbar ">
       <div className="container mx-auto px-4">
-        <div className="navbar-start flex flex-row-reverse justify-center md:justify-between w-full items-center lg:w-1/2 lg:block">
+        <div className="navbar-start flex flex-row justify-between w-full items-center lg:w-1/2 lg:block">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-gray-600"
+                className="h-8 w-8 text-gray-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -76,18 +76,18 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow -left-[150px]"
+              className="menu menu-sm dropdown-content bg-white border border-hunterGreen rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               {links}
             </ul>
           </div>
-          {/* <div className="flex-1 flex md:block justify-center"> */}
-          <div className="w-24 lg:w-20">
-            <Link to={"/"}>
-              <Logo />
-            </Link>
+          <div className="flex-1 flex md:block justify-center">
+            <div className="w-24 lg:w-20 -ml-8">
+              <Link to={"/"}>
+                <Logo />
+              </Link>
+            </div>
           </div>
-          {/* </div> */}
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 *:bg-transparent space-x-6 *:flex-row *:items-center">

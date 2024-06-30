@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import FilledButton from "../../Buttons/FilledButton/FilledButton";
 import Title from "../../Title/Title";
+import Swal from "sweetalert2";
 
 const ContactUs = () => {
   const form = useRef();
@@ -9,17 +10,18 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-        }
-      )
+      .sendForm("service_1dld8hv", "template_gdhm91r", form.current, {
+        publicKey: "201HU-ZMEMBhflVAr",
+      })
       .then(
         () => {
           console.log("SUCCESS!");
+          Swal.fire({
+            title: "Email send successfully!",
+            icon: "success",
+            showCancelButton: false,
+            timer: 1200,
+          });
         },
         (error) => {
           console.log("FAILED...", error.text);
