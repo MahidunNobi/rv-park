@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -56,7 +56,7 @@ const Navbar = () => {
   return (
     <div className="navbar ">
       <div className="container mx-auto px-4">
-        <div className="navbar-start flex flex-row-reverse justify-between w-full items-center lg:w-1/2 lg:block">
+        <div className="navbar-start flex flex-row-reverse justify-center md:justify-between w-full items-center lg:w-1/2 lg:block">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -81,11 +81,13 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <div className="w-14 lg:w-20">
+          {/* <div className="flex-1 flex md:block justify-center"> */}
+          <div className="w-24 lg:w-20">
             <Link to={"/"}>
               <Logo />
             </Link>
           </div>
+          {/* </div> */}
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 *:bg-transparent space-x-6 *:flex-row *:items-center">
