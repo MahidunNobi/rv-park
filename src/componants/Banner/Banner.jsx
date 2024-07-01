@@ -30,7 +30,12 @@ const Banner = () => {
               1955 Cimmaron Road Wilson Oklahoma 73463.{" "}
             </a>
           </p>
-          <FilledButton />
+          <a
+            target="_blank"
+            href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+          >
+            <FilledButton />
+          </a>
         </div>
       </div>
     </div>

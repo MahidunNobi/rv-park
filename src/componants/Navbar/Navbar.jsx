@@ -33,7 +33,12 @@ const Navbar = () => {
       </li>
 
       <li>
-        <FilledButton text={"Book your stay"}></FilledButton>
+        <a
+          target="_blank"
+          href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+        >
+          <FilledButton text={"Book your stay"}></FilledButton>
+        </a>
       </li>
       <li className="flex gap-3 flex-row justify-center my-3 md:my-0">
         <a className="hover:bg-transparent group p-0">

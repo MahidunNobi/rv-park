@@ -23,10 +23,14 @@ const RelaxedRVGetaways = () => {
             through Wilson, Oklahoma. Our RV resort comes equipped with all of
             the needed amenities to safely park and rest your RV for as long as
             you would like to stay with us. Our fun, kind, and family-oriented
-            community can put your mind at ease when you stay with us in Wilson.          
-            
+            community can put your mind at ease when you stay with us in Wilson.
           </p>
-          <FilledButton />
+          <a
+            target="_blank"
+            href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+          >
+            <FilledButton />
+          </a>
         </div>
       </div>
     </div>

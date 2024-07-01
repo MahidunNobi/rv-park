@@ -25,9 +25,14 @@ const Pricing = () => {
             <li className="border-b border-hunterGreen/70">50 Amp Hookups</li>
             <li>Water & Sewer Hookups</li>
           </ul>
-          <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
-            BOOK YOUR STAY
-          </button>
+          <a
+            target="_blank"
+            href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+          >
+            <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
+              BOOK YOUR STAY
+            </button>
+          </a>
         </div>
         <div className="md:scale-110">
           <div className="border border-hunterGreen/70 shadow-xl shadow-hunterGreen/50">
@@ -48,9 +53,14 @@ const Pricing = () => {
               <li className="border-b border-hunterGreen/70">50 Amp Hookups</li>
               <li>Water & Sewer Hookups</li>
             </ul>
-            <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
-              BOOK YOUR STAY
-            </button>
+            <a
+              target="_blank"
+              href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+            >
+              <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
+                BOOK YOUR STAY
+              </button>
+            </a>
           </div>
         </div>
         <div className="border border-hunterGreen/70 shadow-xl shadow-hunterGreen/50">
@@ -71,9 +81,14 @@ const Pricing = () => {
             <li className="border-b border-hunterGreen/70">50 Amp Hookups</li>
             <li>Water & Sewer Hookups</li>
           </ul>
-          <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
-            BOOK YOUR STAY
-          </button>
+          <a
+            target="_blank"
+            href="https://resnexus.com/resnexus/reservations/book/BC0AFB01-D539-456F-B9A0-DDA5645D6038/?NewSearch=1"
+          >
+            <button className="w-full py-3 hover:bg-hunterGreen bg-hunterGreen/90 duration-200 text-white">
+              BOOK YOUR STAY
+            </button>
+          </a>
         </div>
       </div>
     </div>
