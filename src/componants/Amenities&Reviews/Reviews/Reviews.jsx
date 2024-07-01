@@ -18,48 +18,89 @@ const Reviews = () => {
       </h1>
       <div className="max-w-full md:px-6">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          {/* ---------Review-01-------- */}
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Awesome experience stending time in RV park.Awesome experience
-                stending time in RV park.
+                Wilson Christmas Tree Farm and RV Park is a hidden gem in
+                Wilson, Oklahoma! It was very quiet with easy access to Highway
+                70
               </q>
               <br />
               <br />
-              <span> Mr. Carlos</span>
+              <span> David Moore</span>
             </div>
           </SwiperSlide>
+          {/* ---------Review-02-------- */}
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Awesome experience stending time in RV park.Awesome experience
-                stending time in RV park.
+                Tranquil escape from the highway noise. Wilson Christmas Tree
+                Farm and RV Park is a gem waiting to be discovered.
               </q>
               <br />
               <br />
-              <span> Mr. Carlos</span>
+              <span>
+                Ryan and Jessica <sup>March 2024</sup>{" "}
+              </span>
             </div>
           </SwiperSlide>
+          {/* ---------Review-03-------- */}
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Awesome experience stending time in RV park.Awesome experience
-                stending time in RV park.
+                Great spot for RV travelers and outdoor enthusiasts. Wilson
+                Christmas Tree Farm and RV Park offers a refreshing escape.
               </q>
               <br />
               <br />
-              <span> Mr. Carlos</span>
+              <span>
+                {" "}
+                Tom and Emily <sup>Feb 2024</sup>
+              </span>
             </div>
           </SwiperSlide>
+          {/* ---------Review-04-------- */}
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Awesome experience stending time in RV park.Awesome experience
-                stending time in RV park.
+                Friendly staff, beautiful surroundings. Wilson Christmas Tree
+                Farm and RV Park exceeded our expectations.
               </q>
               <br />
               <br />
-              <span> Mr. Carlos</span>
+              <span>
+                {" "}
+                John and Sarah <sup>December 2023</sup>
+              </span>
+            </div>
+          </SwiperSlide>
+          {/* ---------Review-05-------- */}
+          <SwiperSlide>
+            <div className="px-12">
+              <q>
+                A tranquil sanctuary away from the hustle and bustle. Wilson
+                Christmas Tree Farm and RV Park is a true hidden gem.
+              </q>
+              <br />
+              <br />
+              <span>
+                Alex B. <sup>June 2024</sup>
+              </span>
+            </div>
+          </SwiperSlide>
+          {/* ---------Review-06-------- */}
+          <SwiperSlide>
+            <div className="px-12">
+              <q>
+                Easy access off Highway 70 and easy online payment with site
+                selection
+              </q>
+              <br />
+              <br />
+              <span>
+                Mark and Sarah <sup>2024</sup>
+              </span>
             </div>
           </SwiperSlide>
         </Swiper>
