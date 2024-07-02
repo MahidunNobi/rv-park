@@ -9,9 +9,12 @@ const Footer = () => {
       </div>
 
       <div className="grid grid-flow-col gap-4">
-        <button className="border p-2 rounded-full border-gray-600 ">
+        <a
+          href="https://www.facebook.com/profile.php?id=61555638544744&mibextid=LQQJ4d"
+          className="border p-2 rounded-full border-gray-600 "
+        >
           <FaFacebookF size={18} className="text-gray-600" />
-        </button>
+        </a>
         <button className="border p-2 rounded-full border-gray-600 ">
           <FaInstagram size={18} className="text-gray-600" />
         </button>

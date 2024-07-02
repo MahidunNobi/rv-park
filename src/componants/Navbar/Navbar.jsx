@@ -41,7 +41,10 @@ const Navbar = () => {
         </a>
       </li>
       <li className="flex gap-3 flex-row justify-center my-3 md:my-0">
-        <a className="hover:bg-transparent group p-0">
+        <a
+          className="hover:bg-transparent group p-0"
+          href="https://www.facebook.com/profile.php?id=61555638544744&mibextid=LQQJ4d"
+        >
           <FaFacebookF
             size={20}
             className="text-gray-600 group-hover:text-hunterGreen"
