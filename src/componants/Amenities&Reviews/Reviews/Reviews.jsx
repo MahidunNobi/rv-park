@@ -35,13 +35,13 @@ const Reviews = () => {
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Tranquil escape from the highway noise. Wilson Christmas Tree
-                Farm and RV Park is a gem waiting to be discovered.
+                Tranquil escape from the highway noise. A gem waiting to be
+                discovered.
               </q>
               <br />
               <br />
               <span>
-                Ryan and Jessica <sup>March 2024</sup>{" "}
+                Ryan and Jessica <sup>March 2024</sup>
               </span>
             </div>
           </SwiperSlide>
@@ -49,13 +49,12 @@ const Reviews = () => {
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Great spot for RV travelers and outdoor enthusiasts. Wilson
-                Christmas Tree Farm and RV Park offers a refreshing escape.
+                Great spot for RV travelers and outdoor enthusiasts. Its a
+                refreshing escape from the big city.
               </q>
               <br />
               <br />
               <span>
-                {" "}
                 Tom and Emily <sup>Feb 2024</sup>
               </span>
             </div>
@@ -64,13 +63,12 @@ const Reviews = () => {
           <SwiperSlide>
             <div className="px-12">
               <q>
-                Friendly staff, beautiful surroundings. Wilson Christmas Tree
-                Farm and RV Park exceeded our expectations.
+                Friendly staff, beautiful surroundings. It exceeded our
+                expectations.
               </q>
               <br />
               <br />
               <span>
-                {" "}
                 John and Sarah <sup>December 2023</sup>
               </span>
             </div>
@@ -79,8 +77,8 @@ const Reviews = () => {
           <SwiperSlide>
             <div className="px-12">
               <q>
-                A tranquil sanctuary away from the hustle and bustle. Wilson
-                Christmas Tree Farm and RV Park is a true hidden gem.
+                A tranquil sanctuary away from the hustle and bustle. They're a
+                true hidden gem as far as RV parks go in Oklahoma .
               </q>
               <br />
               <br />
