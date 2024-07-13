@@ -57,8 +57,6 @@ const Navbar = () => {
           />
         </a>
       </li>
-      {/* <li>
-      </li> */}
     </>
   );
   return (
